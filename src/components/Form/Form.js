@@ -12,9 +12,7 @@ function Form(props) {
 
   const { onFormChange } = props;
 
-//   useEffect(() => {
-//     onFormChange(values);
-//   }, [onFormChange, values]);
+
 
   const handleBlur = (e) => {
     const { name } = e.target;
